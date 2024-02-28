@@ -38,12 +38,12 @@ Once configured those configuration will get added in the folder section.
 
 #####To Run the project follow below steps:
 
-1.Open up the terminal of your project and type the following command
-  npx cypress open
-2.Select E2E testing
-3.Select chrome browser
-4.Select file
-  
+1.Open up the terminal of your project and type the following command to run 1 file
+  npx cypress run --browser chrome -- "Cypress Automation\cypress\e2e\Axiomrequester.cy.js"
+2.Open up the terminal of your project and type the following command to run 2 file
+   npx cypress run --browser chrome -- "Cypress Automation\cypress\e2e\Axiomrequester.cy.js","Cypress Automation\cypress\e2e\Axiomapprover.cy.js"  
+
+
  
 
 
