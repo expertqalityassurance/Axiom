@@ -36,7 +36,7 @@ Once configured those configuration will get added in the folder section.
 9.Add the following code under support/e2e.js file
   require('cypress-xpath');
 
-#####To Run the project below steps:
+#####To Run the project follow below steps:
 
 1.Open up the terminal of your project and type the following command
   npx cypress open
