@@ -1,10 +1,10 @@
 # Axiom
-Prerequisites:
+##Prerequisites:
 1.Node Js installed.
 2.Visual studio code installed.
 3.Cypress installed.
 
-#Download & Install visual studio by following below steps:
+###Download & Install visual studio by following below steps:
 
 1.Download the VS Code file from the Official Website.
 2.Execute the download file.
@@ -13,7 +13,7 @@ Prerequisites:
 5.Wait for the installation to complete.
 6.Click on the Launch button to start it.
 
-##Install cypress by following below steps:
+####Install cypress by following below steps:
 
 1.Create a folder
 2.Open the folder in the visual studio code
@@ -36,7 +36,7 @@ Once configured those configuration will get added in the folder section.
 9.Add the following code under support/e2e.js file
   require('cypress-xpath');
 
-###To Run the project below steps:
+#####To Run the project below steps:
 
 1.Open up the terminal of your project and type the following command
   npx cypress open
